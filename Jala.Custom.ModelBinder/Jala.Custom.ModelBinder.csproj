@@ -12,8 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Remove="ModelBinders\RichardProvider.cs" />
-      <Compile Remove="ModelBinders\Richard.cs" />
     </ItemGroup>
 
 </Project>
