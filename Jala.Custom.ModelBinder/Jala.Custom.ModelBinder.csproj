@@ -11,4 +11,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="ModelBinders\RichardProvider.cs" />
+      <Compile Remove="ModelBinders\Richard.cs" />
+    </ItemGroup>
+
 </Project>
